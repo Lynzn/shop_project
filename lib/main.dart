@@ -188,15 +188,15 @@ List<Item> items = [
   ),
   //2
   Item(
-    "https://i.ibb.co/wMrFVjV/Cute-Korean-Cartoon-for-Iphone-12-11-Pro-Max-Xs-X-Xr-Xs-Max-7-Etsy.jpg",
-    "Iphone 13",
-    "8.000.000",
+    "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-22395158/coach_coach_tabby_top_handle_20_black_elegant_bag_branded_full01_knfc53x9.jpg",
+    "Coach Tabby",
+    "2.000.000",
   ),
   //3
   Item(
-    "https://i.ibb.co/NpJ3XQB/i-Phone-11-Cases.jpg",
-    "Iphone 11",
-    "7.000.000",
+    "https://ae01.alicdn.com/kf/Hd59854abf0f342538dc4ecb5cd7a2a92K/Vintage-Chain-Designer-PU-Leather-Crossbody-Bags-For-Women-2022-Winter-Women-s-Trend-Handbags-Branded.jpg",
+    "Vintage Leather",
+    "500.000",
   ),
   //4
   Item(
