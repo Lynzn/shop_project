@@ -35,7 +35,7 @@ class ListViewHome extends StatelessWidget {
             Container(
               height: 30,
               margin: const EdgeInsets.only(top: 10.0),
-              child: Text('Bulgari Dias', style: TextStyle(fontSize: 20.0)),
+              child: Text('Bulgari Dias', style: TextStyle(fontSize: 20)),
             ),
             Container(
               height: 50,
