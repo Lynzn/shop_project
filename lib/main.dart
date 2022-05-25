@@ -200,14 +200,26 @@ List<Item> items = [
   ),
   //4
   Item(
-    "https://i.ibb.co/194z7b2/White-butterfly-cute-cartoon-soft-silicone-clear-phone-case-for-iphone-x-xr-xsmax-11-12-mini-13-pro.jpg",
-    "Iphone 13 mini",
-    "13.000.000",
+    "https://apollo-singapore.akamaized.net/v1/files/e5jhmiegl3w02-ID/image;s=850x0",
+    "Dior Blue Gery",
+    "32.000.000",
   ),
   //5
   Item(
-    "https://i.ibb.co/XWMm3PY/Glitter-Rabbit-i-Phone-Case.png",
-    "Iphone 12",
-    "7.500.000",
+    "https://s3.bukalapak.com/img/3421201952/large/Tas_Wanita_Bonia_Easy_bag_Handbag_Branded_Import_New_Arrival.jpg",
+    "Bonia Brown",
+    "200.000",
+  ),
+  //6
+  Item(
+    "https://www.stylesgap.com/wp-content/uploads/2014/10/Top-10-Most-Famous-Best-Designer-Bags-Popular-Handbags-Brands-1-1.jpg",
+    "Channel Chain Black",
+    "37.000.000",
+  ),
+  //7
+  Item(
+    "https://media.karousell.com/media/photos/products/2022/1/10/sling_bag_branded_1641812062_7e12e386_progressive.jpg",
+    "Sling Saddle Dior",
+    "25.000.000",
   ),
 ];
