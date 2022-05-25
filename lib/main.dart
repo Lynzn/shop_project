@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Putri Cellular'),
+          title: Text('MAMAMARA.RO'),
           bottom: TabBar(
             tabs: <Widget>[
               Tab(
