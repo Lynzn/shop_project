@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         // This is the theme of your application.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       home: MyHomePage(),
     );
@@ -38,14 +38,14 @@ class _MyHomePageState extends State<MyHomePage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Song Galery'),
+          title: Text('Putri Cellular'),
           bottom: TabBar(
             tabs: <Widget>[
               Tab(
-                icon: Icon(Icons.collections),
+                icon: Icon(Icons.home),
               ),
               Tab(
-                icon: Icon(Icons.audiotrack),
+                icon: Icon(Icons.menu),
               ),
             ],
           ),
@@ -182,122 +182,32 @@ class _ItemFullScreenWidget extends StatelessWidget {
 List<Item> items = [
   //1
   Item(
-    "https://images.wallpaperscraft.com/image/single/octopus_underwater_world_art_131042_1280x720.jpg",
-    "Octopus",
-    "18.20",
+    "https://i.ibb.co/F4HNt8q/Shockproof-Clear-Phone-Case-For-Iphone-Xr-Xs-Max-X-6-6-S-7-8-Plus-Soft-TPU-Transparent-Phone-Case-Fo.png",
+    "Iphone Xs",
+    "4.500.000",
   ),
   //2
   Item(
-    "https://i.pinimg.com/originals/40/c3/be/40c3bef82a8077e5c872808eefff5c6d.png",
-    "Everest",
-    "02.11",
+    "https://i.ibb.co/wMrFVjV/Cute-Korean-Cartoon-for-Iphone-12-11-Pro-Max-Xs-X-Xr-Xs-Max-7-Etsy.jpg",
+    "Iphone 13",
+    "8.000.000",
   ),
   //3
   Item(
-    "https://image.freepik.com/free-vector/flat-design-baby-shark-cartoon-style_52683-36255.jpg",
-    "Shark",
-    "21.52",
+    "https://i.ibb.co/NpJ3XQB/i-Phone-11-Cases.jpg",
+    "Iphone 11",
+    "7.000.000",
   ),
   //4
   Item(
-    "https://image.freepik.com/free-vector/fairytale-concept-with-child-reading_23-2148472951.jpg",
-    "Dreaming",
-    "22.11",
+    "https://i.ibb.co/194z7b2/White-butterfly-cute-cartoon-soft-silicone-clear-phone-case-for-iphone-x-xr-xsmax-11-12-mini-13-pro.jpg",
+    "Iphone 13 mini",
+    "13.000.000",
   ),
   //5
   Item(
-    "https://img.freepik.com/free-vector/spring-landscape-scene_23-2148860692.jpg",
-    "Nature",
-    "01.12",
-  ),
-  //6
-  Item(
-    "https://pw.artfile.me/wallpaper/20-03-2017/650x366/vektornaya-grafika-priroda--nature-sneg--1143282.jpg",
-    "Everest 2",
-    "23.44",
-  ),
-  //7
-  Item(
-    "https://wallpaperaccess.com/full/645620.png",
-    "IronHeard",
-    "19.20",
-  ),
-  //8
-  Item(
-    "https://images.wallpaperscraft.com/image/single/astronaut_spacesuit_reflection_144426_1280x720.jpg",
-    "Astronot",
-    "20.00",
-  ),
-  //9
-  Item(
-    "https://images.wallpaperscraft.com/image/single/deer_art_vector_134088_1280x720.jpg",
-    "Deer",
-    "14.55",
-  ),
-  //10
-  Item(
-    "https://images.wallpaperscraft.com/image/single/minimalism_sky_clouds_sun_mountains_lake_landscape_95458_1280x720.jpg",
-    "Kilimanjaro",
-    "12.00",
-  ),
-  //11
-  Item(
-    "https://images.wallpaperscraft.com/image/single/lion_art_vector_122213_1280x720.jpg",
-    "The Lion King",
-    "16.19",
-  ),
-  //12
-  Item(
-    "https://images.wallpaperscraft.com/image/single/minimalism_origami_japan_rising_sun_wave_74405_1280x720.jpg",
-    "Japanese",
-    "15.11",
-  ),
-  //13
-  Item(
-    "https://images.wallpaperscraft.com/image/single/landscape_mountains_art_140515_1280x720.jpg",
-    "Lavender",
-    "21.20",
-  ),
-  //14
-  Item(
-    "https://images.wallpaperscraft.com/image/single/spruce_art_forest_131371_1280x720.jpg",
-    "Night Nature",
-    "16.07",
-  ),
-  //15
-  Item(
-    "https://images.wallpaperscraft.com/image/single/forest_trees_mountains_146485_1280x720.jpg",
-    "Forest 2",
-    "17.18",
-  ),
-  //16
-  Item(
-    "https://images.wallpaperscraft.com/image/single/phoenix_bird_art_140086_1280x720.jpg",
-    "Phoenix",
-    "10.00",
-  ),
-  //17
-  Item(
-    "https://images.wallpaperscraft.com/image/single/mountains_river_sun_143529_1280x720.jpg",
-    "River",
-    "10.11",
-  ),
-  //18
-  Item(
-    "https://images.wallpaperscraft.com/image/single/silhouette_moon_art_138485_1280x720.jpg",
-    "Moon Art",
-    "16.19",
-  ),
-  //19
-  Item(
-    "https://images.wallpaperscraft.com/image/single/graphics_low_poly_digital_art_minimalism_102027_1280x720.jpg",
-    "Poligon Art",
-    "23.59",
-  ),
-  //20
-  Item(
-    "https://images.wallpaperscraft.com/image/single/mountains_sunset_landscape_147439_1280x720.jpg",
-    "Sunset",
-    "16.10",
+    "https://i.ibb.co/XWMm3PY/Glitter-Rabbit-i-Phone-Case.png",
+    "Iphone 12",
+    "7.500.000",
   ),
 ];
