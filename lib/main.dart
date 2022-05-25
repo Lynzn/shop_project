@@ -182,9 +182,9 @@ class _ItemFullScreenWidget extends StatelessWidget {
 List<Item> items = [
   //1
   Item(
-    "https://i.ibb.co/F4HNt8q/Shockproof-Clear-Phone-Case-For-Iphone-Xr-Xs-Max-X-6-6-S-7-8-Plus-Soft-TPU-Transparent-Phone-Case-Fo.png",
-    "Iphone Xs",
-    "4.500.000",
+    "https://media2.bulgari.com/f_auto,q_auto/production/dw62a0c52b/images/images/1348757.png",
+    "Bulgari Dias",
+    "24.500.000",
   ),
   //2
   Item(
