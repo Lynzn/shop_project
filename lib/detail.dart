@@ -8,17 +8,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewHome(),
+      theme: ThemeData(
+        // This is the theme of your application.
+        primarySwatch: Colors.lightGreen,
+      ),
+      home: DetailProduct(),
     );
   }
 }
 
-class ListViewHome extends StatelessWidget {
-  var date = DateTime.now();
+class DetailProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Toko Online'),
+          title: Text('MAMAMA.RA'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(8),
