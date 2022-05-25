@@ -1,40 +1,44 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      // Application name
-      title: 'Flutter Hello World',
-      // Application theme data, you can set the colors for the application as
-      // you want
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: MyApp(),
+  ));
 }
 
-class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
+class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext) {
     return Scaffold(
       appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
+        title: Text('title'),
       ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
-        ),
+      body: Stack(
+        children: [
+          Container(decoration: BoxDecoration(image: DecorationImage(image: NetworkImage(''), fit: BoxFit.cover))),
+          Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                  decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(48),
+                        topRight: Radius.circular(48),
+                      ),
+                      boxShadow: [
+                        BoxShadow(color: Colors.black.withOpacity(2), offset: Offset(0, -4), blurRadius: 8)
+                      ]),
+                  child: Column(
+                    children: [
+                      Text(
+                        'Tas Gigi Hadid',
+                        style: TextStyle(color: Colors.black, fontSize: 32, fontWeight: FontWeight.bold),
+                      )
+                    ],
+                  )))
+        ],
       ),
     );
   }
