@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         // This is the theme of your application.
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.lime,
       ),
       home: MyHomePage(),
     );
